@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+		width: 100%;
+		height: 100vh;
+		background-image: url(assets/DarkWatersBubbles.png);
+        background-size: cover;
+    background-position: center;
+}
+
+.paru{
+    width:120px;
+    cursor:pointer;
+}
+
+.main{
+    width:100%;
+    position:absolute;
+    top:30%;
+    transform:translateY(-50%);
+    text-align:center;
+    color:azure;
+}
+.main{
+    font-size:20px;
+    margin-top: 80px;
+    letter-spacing: 4px
+}
+
+.links{
+    position:absolute;
+    top:58%;
+    transform: translateX(237%);
+}
+.twitter{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:50px;
+    height:50px;
+}
+.twitter:hover {
+    color: #ddebf3;
+}
+
+.steam{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:50px;
+    height:50px;
+}
+.steam:hover {
+    color: #ddebf3;
+}
+
+.banana{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:50px;
+    height:50px;
+}
+.banana:hover {
+    color: #ddebf3;
+}
+
+.switch{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:50px;
+    height:50px;
+}
+
+.switch:hover {
+    opacity: 0.7;
+}
+
+.kirb{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:50px;
+    height:50px;
+}
+
+.kirb:hover {
+    opacity: 0.7;
+}
+
