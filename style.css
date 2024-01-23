@@ -108,12 +108,15 @@
 }
 
 .spin {
-  position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 40%; 
-    height: 40%;
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.spin video {
     object-fit: contain;
 }
 
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
