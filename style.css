@@ -1,8 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: PFSquareSans, sans-serif;
 }
+
 .banner{
 		width: 100%;
 		height: 100vh;
@@ -22,6 +23,7 @@
     transform:translateY(-50%);
     text-align:center;
     color:azure;
+    font-family: "PFSquareSans";
 }
 .main{
     font-size:20px;
@@ -120,3 +122,10 @@
     overflow-x: hidden; /* Hide vertical scrollbar */
 }
   
+.homebrew {
+    position: absolute;
+    display: flex;
+    left: 40%;
+    top: 70%;
+    border: 30px;
+}
