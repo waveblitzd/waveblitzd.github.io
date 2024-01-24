@@ -12,6 +12,10 @@
         background-position: center;
 }
 
+h1{
+  font-weight:normal;
+}
+
 .paru{
     width:120px;
 }
@@ -122,10 +126,73 @@
     overflow-x: hidden; /* Hide vertical scrollbar */
 }
   
-.homebrew {
-    position: absolute;
-    display: flex;
-    left: 40%;
-    top: 70%;
-    border: 30px;
+ .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: steelblue;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidebar div {
+      padding: 8px 8px 8px 30px;
+      font-size: 24px;
+      display: block;
+      transition: 0.5s;
+      cursor: pointer;
+      color: white;
+    }
+
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      color: white;
+    }
+
+    .openbtn {
+      font-size: 24px;
+      cursor: pointer;
+      background-color: transparent;
+      color: white;
+      border-color: transparent;
+      position: relative;
+      left: 30px;
+      top: -30px;
+    
+    }
+
+    #main {
+      transition: margin-left .5s;
+    }
+
+/* unvisited link */
+a:link {
+  color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+  color: darkgrey;
+    text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+  color: white;
+    text-decoration: none;
 }
